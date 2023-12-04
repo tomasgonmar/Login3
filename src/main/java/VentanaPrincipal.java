@@ -1,5 +1,6 @@
 
 import java.awt.Color;
+import javax.swing.JButton;
 import javax.swing.JOptionPane;
 
 /*
@@ -15,12 +16,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private int xMouse;
     private int yMouse;
+    private JButton entrar;
 
     /**
      * Creates new form VentanaPrincipal
      */
     public VentanaPrincipal() {
         initComponents();
+        getRootPane().setDefaultButton(entrar);
     }
 
     /**
