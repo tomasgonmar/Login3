@@ -24,6 +24,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     public VentanaPrincipal() {
         initComponents();
         getRootPane().setDefaultButton(entrar);
+        //Holas
     }
 
     /**
